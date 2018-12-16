@@ -8,11 +8,11 @@
 # Site settings
 title: 진현우의 기술블로그
 email: heonwoojin0922@gmail.com
-description:  나는 나중에 우주공학자가 될거에요.
+description:  나는 나중에 우주공학자가 될거에요...
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://jhw0922.github.io/" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+#twitter_username: jekyllrb
+#github_username:  jekyll
 
 # Build settings
 markdown: kramdown
