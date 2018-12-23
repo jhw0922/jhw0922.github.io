@@ -1,0 +1,50 @@
+~~~
+package lecture20181223;
+
+public class Lecture01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//double a = 3.14;
+		/*
+		정수형
+		byte
+		short
+		int
+		long
+
+		실수형
+		double
+		float
+		*/
+
+		/*
+		int a = 10;
+		int b = 20;
+		int c = a + b;
+		System.out.print(c);
+		 */
+
+		/*
+		문제1.
+		int a = 10;
+		int b = 20;
+		System.out.print(a+b);
+		System.out.print(a*b);
+		System.out.print(a/b);
+		System.out.print(a%b);
+		*/
+
+		//문제2.
+		int a = 5000;
+		int b = 2000;
+		int c = 1500;
+		System.out.print(a*2+b);
+
+
+
+	}
+
+}
+~~~
