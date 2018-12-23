@@ -1,0 +1,33 @@
+~~~
+package lecture20181223;
+
+public class Lecture02 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		/*
+		문제3.
+		iphoneX = 1000$;
+		iphone 8 = 500$;
+		iphone 7 = 700$;
+		airpod = 10$;
+		pad = 2000$;
+
+		iphoneX와 airpod 2개를 구매, 총 가격?
+		세금 : 총 가격의 10%
+		*/
+
+		int iphoneX = 1000;
+		int iphone8 = 500;
+		int iphone7 = 700;
+		int airpod = 10;
+		int pad = 2000;
+
+		double totalprice = (iphoneX+airpod*2) + (iphoneX+airpod*2)*0.1;
+		System.out.print(totalprice);
+
+	}
+
+}
+~~~
