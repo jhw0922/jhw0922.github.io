@@ -1,0 +1,26 @@
+~~~
+package lecture20181230;
+
+public class Lecture01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//주석문 실습
+		//이 부분을 주석처리 해서 프로그램이 돌아가게 만들어 보세요.
+		System.out.println("Hello world");
+
+		//한줄만 주석처리
+		//System.out.println(test);
+
+		/*여러 줄을 주석처리합니다.*/
+		/*
+		 System.out.println("1");
+		 System.out.println("2");
+		 System.out.println("3");
+		 */
+
+	}
+
+}
+~~~
