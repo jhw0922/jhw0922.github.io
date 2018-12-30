@@ -1,0 +1,21 @@
+~~~
+package lecture20181230;
+
+public class Lecture02 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//정수를 담는 변수, count선언
+		int count;
+		//실수를 담는 변수, average선언
+		float average;
+		//두 수를 출력하세요.
+		count=1;
+		average=1;
+		System.out.println(count);
+		System.out.println(average);
+	}
+
+}
+~~~
