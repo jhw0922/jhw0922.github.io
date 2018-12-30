@@ -1,0 +1,26 @@
+~~~
+package lecture20181230;
+
+public class Lecture03 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		/*
+		 상수는 변하지 않는 값을 의미합니다. 상수는 다음과 같이 선언합니다.
+		 상수는 final 키워드를 사용해 선언하세요.
+		 상수는 대문자로만 합니다.
+		 */
+
+		final int J = 10;
+		//J에는 값을 한번 담을 수 있습니다.
+		//이제 J 값을 변경할 수 없습니다.
+		System.out.println(J);
+        J = 12//바꿀 수 없다.->J의 값은 고정되어있기 때문이다.(final에 의해서)
+
+
+
+	}
+
+}
+~~~
