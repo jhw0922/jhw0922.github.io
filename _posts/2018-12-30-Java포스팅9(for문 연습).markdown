@@ -1,0 +1,43 @@
+~~~
+package lecture20181230;
+
+public class Lecture07 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		/*
+		    /조건식 수행 결과가 false라면 for 문을 빠져나갑니다.
+		    for(초기화식; 조건식; 증감식) {
+		       // 조건식 수행 결과가 true라면 실행문을 수행합니다.
+		       실행문1;
+		       실행문2;
+		    }
+		 */
+
+		 /*
+		for(int i = 3 ; i<= 10 ; i++) {
+			//if 문을 주가해, i가 3의 배수일 때만 실행문을 수행합니다.
+			if(i % 3 == 0)
+				System.out.println(i);
+		}
+		*/
+
+		//for문을 사용하여 1부터 10까지 출력하시오.
+
+		/*
+		for(int i = 1 ; i<= 10 ; i++ ) {
+			System.out.println(i);
+			*/
+
+		//짝수만 출력하시오.
+
+		for(int i = 1 ; i<= 10 ; i++ ) {
+			if(i % 2 == 0)
+			System.out.println(i);
+		}
+
+	}
+
+}
+~~~
