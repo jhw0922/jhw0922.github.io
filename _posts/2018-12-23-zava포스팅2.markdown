@@ -41,46 +41,4 @@ public class Lecture04 {
 	}
 
 }
-package lecture20181223;
-
-public class Lecture04 {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-		/*
-		 빅맥 5000->1개
-		 빅맥 세트 6500->2개
-		 치즈스틱 3000->1개
-		 맥플러리 1500->5개
-
-		20000원이 넘으면, 현우는 너무 많이 먹는다를 출력
-		20000원이 안넘으면, 현우는 배가 안 고프다를 출력
-
-		 */
-		int 빅맥 = 5000;
-		int 빅맥세트 = 6500;
-		int 치즈스틱 = 3000;
-		int 맥플러리 = 1500;
-
-		double totalprice = (빅맥+빅맥세트*2+치즈스틱+맥플러리*5);
-		System.out.print(totalprice);
-
-
-		if(totalprice>20000)
-		{
-			System.out.print("현우는 너무 많이 먹는다.");
-		}
-		else if(totalprice<20000)
-		{
-			System.out.print("현우는 배가 안 고프다.");
-		}
-
-
-
-
-
-	}
-
-}
 ~~~
