@@ -1,0 +1,19 @@
+~~~
+package lecture20190106;
+
+public class Lecture02 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//형변환(캐스팅)
+		double d = 85.4;//실수형 변수 d선언
+		int score = (int)d;//int형 변수 score의 실수형 변수 d를 형변환해서 대입
+
+		System.out.println("score="+score);
+		System.out.println("d="+d);
+
+	}
+
+}
+~~~
