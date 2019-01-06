@@ -1,0 +1,22 @@
+~~~
+package lecture20190106;
+
+public class Lecture05 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int math = 100;//int형 변수 math선언, math의 값을 삽입
+
+		if(math >= 90) {//if문을 이용해서 조건에 만족하거나 불만족할 때의 경우의 수 삽입
+			System.out.println("대학 갈 수 있어요");
+		}else if(math >= 80) {
+			System.out.println("재수해야돼요");
+		}else {
+			System.out.println("공장들어가야돼요")
+		}
+
+	}
+
+}
+~~~
